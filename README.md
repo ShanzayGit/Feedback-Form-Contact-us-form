@@ -9,6 +9,7 @@ This project focuses on creating a visually appealing form with a gradient backg
 * Gradient background design
 * Transparent glass-style container
 * Required field validation
+* Invalid input validation
 * Email input support
 * Styled textarea for feedback
 * Hover effect on submit button
@@ -47,6 +48,7 @@ project-folder/
 * Hover states
 * Responsive sizing
 * Background attachment
+* :invalid
 
 ## 🚀 How to Run
 
@@ -70,7 +72,7 @@ project-folder/
 ## 🔮 Future Improvements
 
 * Improve mobile responsiveness
-* Add success/error messages
+* Add success/error messages when form submits
 * Add dark/light mode toggle
 * Connect form to backend
 * Add smooth animations
