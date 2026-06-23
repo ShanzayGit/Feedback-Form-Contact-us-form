@@ -46,3 +46,14 @@ button:hover{
   background-color:rgba(40,45,160,0.2);
 }
 
+.message-invalid-input{
+  color:red;
+  display:none;
+}
+#name:invalid,#mail:invalid,#complain:invalid{
+ border:2px solid red;
+}
+
+#name:invalid+.message-invalid-input,#mail:invalid+.message-invalid-input,#complain:invalid+.message-invalid-input{
+ display:block;
+}

@@ -11,10 +11,12 @@
   <div class="form-container">
     <form>
         <h2>Contact Us</h2>
-        <label for="name">Full Name: <input required type="text" id="name" name="name" ></label>
-        
-        <label for="mail">Email: <input type="email" id="mail" name="mail" placeholder="example@email.com" required></label>
-        <label for="complain">Complain or Feedback: <textarea id="complain" name="complain" required placeholder="I have a suggestion..." rows="3" cols="30"></textarea></label>
+        <label for="name">Full Name: <input required type="text" id="name" name="name" >        <p class="message-invalid-input">Enter a valid Full name!!</p>
+</label>
+        <label for="mail">Email: <input type="email" id="mail" name="mail" placeholder="example@email.com" required>        <p class="message-invalid-input">Please enter a valid email</p>
+</label>
+        <label for="complain">Complain or Feedback: <textarea id="complain" name="complain" required placeholder="I have a suggestion..." rows="3" cols="30"></textarea>        <p class="message-invalid-input">Please Enter feedback.</p>
+</label>
         <button type="submit">Submit</button>
     </form>
   </div>
